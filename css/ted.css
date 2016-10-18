@@ -1,0 +1,36 @@
+@import 'https://fonts.googleapis.com/css?family=Source+Code+Pro';
+body {
+    font-family: 'Source Code Pro', monospace;
+    color: #000000;
+    font-weight: 500;
+}
+
+img {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    user-drag: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: blue;
+}
+
+footer {
+    background-color: #c0c0c0;
+    position:absolute;
+    bottom:0;
+    width: 100%;
+}
+
+.site-footer {
+    padding: 0px;
+}
