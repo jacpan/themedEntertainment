@@ -12,6 +12,8 @@ void setup()
   opc = new OPC(this, "127.0.0.1", 7890);
 
   // Map one 64-LED strip to the center of the window
+  //Worked with port 0
+  //how to get it to work on other ports??
   opc.ledStrip(0, 64, width/2, height/2, width / 70.0, 0, false);
 }
 
