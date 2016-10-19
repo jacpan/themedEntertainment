@@ -28,4 +28,3 @@ void draw()
   image(im, 0, y, width, imHeight);
   image(im, 0, y + imHeight, width, imHeight);
 }
-
