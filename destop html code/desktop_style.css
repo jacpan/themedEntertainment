@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+#desktop{
+	width:800px; 
+	height:600px; 
+	text-align:left; 
+	margin:0 auto; 
+	background-attachment:fixed; 
+	background: url(img/destop%20bg.png)
+	
+}
+
+#desktopicon{
+	border:none;
+	width:43px; 
+	height:64px; 
+	margin:30px;
+	background:url(img/inbox_icon.png);
+	
+}  
+#desktopicon:active{
+	background:url(img/inbox_icon_selected.png);
+}
+
+
+#menubar{
+	width:800px; 
+	height:34px; 
+	text-align:left; 
+	margin-top:440px; 
+	background:url(img/menu%20bar.png);
+	
+}
+#start{
+	margin:2px;
+	width:72px; 
+	height:30px; 
+	background:url(img/start_up2.png);
+	
+}
+#start:active{
+	background:url(img/start_down2.png);
+}
+menubar_icon{
+	
+	background:url(img/inbox_start.png);
+	
+}
+
+.main-menu {  cursor:pointer; display:inline-block; } /* menu style */
+.sub-menu {  
+	background:url(img/start%20menu%20bg.png); 
+	width:208px; height:301px; 
+	margin:-330px 5px; 
+	padding:0px; 
+	list-style-type:none; 
+	position:absolute; } /* sub menu style */
+
+#inbox_button { 
+	width:170px; 
+	height:50px; 
+	margin-left:34px; 
+	margin-top:3px; 
+	border:none;
+	background:url(img/inbox_start.png); } /* sub menu list style */
+
+
+#inbox_button:active {
+	background:url(img/inbox_start_selected.png);
+	
+}
+.sub-menu input{ text-align:left; display:block; text-decoration:none; color:#0000FF; }
+.sub-menu input:hover { color:#FFFFFF; background-color:#0000FF; text-decoration:none; }

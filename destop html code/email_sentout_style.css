@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+#start:acive{
+	
+}
+
+#desktop{
+	width:800px; 
+	height:600px; 
+	text-align:left; 
+	margin:0 auto; 
+	background-attachment:fixed; 
+	background: url(img/destop%20bg.png)
+	
+}
+
+#desktopicon{
+	border:none;
+	width:43px; 
+	height:64px; 
+	margin:30px;
+	background:url(img/inbox_icon.png);
+	
+}  
+#desktopicon:active{
+	
+	background:url(img/inbox_icon_selected.png);
+}
+
+
+#menubar{
+	width:800px; 
+	height:34px; 
+	text-align:left; 
+	margin-top:100px; 
+	background:url(img/menu%20bar.png);
+	
+}
+#start{
+	margin:2px;
+	width:72px; 
+	height:30px; 
+	background:url(img/start_up2.png);
+	
+}
+#start:active{
+	background:url(img/start_down2.png);
+}
+#menubar_icon{
+	
+	background:url(img/inbox_start.png);
+	
+}
+#inboxwindow{
+	width: 453px;
+	height: 344px;
+	margin-left: 240px;
+	background: url(img/pop%20email%20box%20bg.png);
+	}
+
+ul li { list-style-type:none; } 
+
+#exit{
+	border:none;
+	background:url(img/exit.png);
+	width:17px;
+	height:17px;
+	margin-top:1px;
+	margin-left:435px;	
+	
+}
+#exit:active{
+	background:url(img/exit_selected.png);
+}
+.sidebar{
+	width:50px;
+	height:auto;
+	float:left;
+}
+#reply{
+	width:39px;
+	height:67px;
+	margin:15px;
+	margin-top:30px;
+	border:none;
+	background:url(img/reply_gray.png);
+	
+}
+
+#send{
+	width:43px;
+	height:48px;
+	margin:15px;
+	border:none;
+	background:url(img/send_gray.png);
+	
+}
+#send:active{
+	background:url(img/send_gray.png);
+}
+.inbox{
+	top:0px;
+	width:365px;
+	padding-top:1px;
+	margin-top:25px;
+    margin-left:65px;
+}
+.checkbox{
+	
+	
+	
+}
+.name{
+	border-bottom:1px dotted #000000;
+	width:100px;
+	height:10px;
+		
+}
+.subject{
+	border-bottom:1px dotted #000000;
+	width:265px;
+	height:10px;
+}
+#content{
+	height:200px;	
+	
+	
+	
+	
+}
+#email_content{
+	border:none; 
+	width:350px;
+	height:210px;
+	
+}
